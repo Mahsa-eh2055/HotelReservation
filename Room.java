@@ -50,14 +50,12 @@ public class Room {
         int roomNumber = Integer.parseInt(r[2]);
         String roomType = r[3];
         String status = r[4];
-
-        int price = 100;
-        if (r.length >= 6) {
-            price = Integer.parseInt(r[5]);
-        }
+         int price = Integer.parseInt(r[5]);
+        
 
 
 
         return new Room(floorNumber, roomNumber, hotelName, roomType, status, price);
     }
 }
+

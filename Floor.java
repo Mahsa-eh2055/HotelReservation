@@ -19,7 +19,7 @@ public class Floor {
                     hotelName,
                     Roomtype.SINGLE,
                     Roomstatus.EMPTY,
-                    100));
+                    1000000));
         }
 
         for (int i = 6; i <= 10; i++) {
@@ -28,7 +28,7 @@ public class Floor {
                     hotelName,
                     Roomtype.DOUBLE,
                     Roomstatus.EMPTY,
-                    150));
+                    1500000));
         }
     }
 
@@ -40,3 +40,4 @@ public class Floor {
         return rooms;
     }
 }
+
